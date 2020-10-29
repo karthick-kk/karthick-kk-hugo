@@ -22,6 +22,6 @@ Before into IT, I was a teaching faculty at Dr.M.G.R Education Research Institut
 
 - Read the **[blog]({{< ref "/posts" >}} "blog")**
 
-- Checkout the **[CV]({{< ref "/resume" >}} "resume")**
+- Checkout the **[CV]({{< ref "/resume" >}} "CV")**
 
 Have a question or need help on a project? **[Lets talk](mailto:kkzone@gmail.com)**
