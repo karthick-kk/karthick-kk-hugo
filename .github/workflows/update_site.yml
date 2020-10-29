@@ -29,12 +29,12 @@ jobs:
       - uses: actions/checkout@master
         with:
           repository: karthick-kk/karthick-kk.github.io
-#          token: ${{ secrets.GITKEN }}
       - name: Update deployment image version of k8
         run: |
           cp -rp ~/source/* .
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add .
           git commit -m "Add changes" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
