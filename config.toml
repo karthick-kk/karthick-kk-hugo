@@ -89,7 +89,7 @@ disableHugoGeneratorInject = false
 
   # Default theme "light" or "dark"
   #
-  defaultTheme = "dark"
+  defaultTheme = "light"
   themeColor = "#252627"
 
   # Custom footer
