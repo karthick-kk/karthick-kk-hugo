@@ -18,10 +18,10 @@ Before CoreStack, I was a Cloud & Linux administrator at `Excelencia Consulting 
 
 Before into IT, I was a teaching faculty at Dr.M.G.R Education Research Institute, where I helped students to get started with their Unix basics and entry level coding.
 
-- See some of **my projects**
+- See some of **[my projects]({{< ref "/work" >}} "my projects")**
 
-- Read the **blog**
+- Read the **[blog]({{< ref "/posts" >}} "blog")**
 
-- Checkout the **CV**
+- Checkout the **[CV]({{< ref "/resume" >}} "CV")**
 
 Have a question or need help on a project? **[Lets talk](mailto:kkzone@gmail.com)**
