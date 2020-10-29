@@ -30,4 +30,4 @@ jobs:
           repo: karthick-kk/karthick-kk.github.io 
           dir: public
           branch: master
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITKEN }}
