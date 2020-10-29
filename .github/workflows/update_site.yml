@@ -17,10 +17,17 @@ jobs:
           wget -O /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.76.5/hugo_0.76.5_Linux-64bit.tar.gz
           tar -xvzf /tmp/hugo.tar.gz -C /tmp 
           /tmp/hugo -D
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+#      - name: Deploy 🚀
+#        uses: JamesIves/github-pages-deploy-action@3.7.1
+#        with:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#          BRANCH: master # The branch the action should deploy to.
+#          FOLDER: public # The folder the action should deploy.
+#          CLEAN: true # Automatically remove deleted files from the deploy branch
+      - name: Publish generated content to GitHub Pages
+        uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: master # The branch the action should deploy to.
-          FOLDER: public # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
+          repo: karthick-kk/karthick-kk.github.io 
+          dir: public
+          branch: master
+          token: ${{ secrets.GITHUB_TOKEN }}
