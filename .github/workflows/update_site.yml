@@ -12,11 +12,6 @@ jobs:
       - uses: actions/checkout@v1
       - name: Install hugo and generate static html
         run: |
-          #sudo apt update
-          #sudo apt install -y wget
-          #wget -O /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.76.5/hugo_0.76.5_Linux-64bit.tar.gz
-          #tar -xvzf /tmp/hugo.tar.gz -C /tmp 
-          #/tmp/hugo -D
           brew install hugo
           hugo -D
       - name: Publish generated content to GitHub Pages
