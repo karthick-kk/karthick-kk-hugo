@@ -10,7 +10,7 @@ Karthick K
 DevOps Platform Automation Engineer
 -----------------------------------
 -------------------     ----------------------------
-![image](https://thumbs.gfycat.com/AssuredTatteredAmericanwigeon-max-1mb.gif#floatleft)+91 9840585161|<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>|![image](https://repl-mail--mreconomical.repl.co/public/images/loading.gif#floatleft) [karthick.kk@hotmail.com](mailto:karthick.kk@hotmail.com)
+![image](https://raw.githubusercontent.com/karthick-kk/karthick-kk-hugo/main/images/phone-icon.gif#floatleft)+91 9840585161|<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>|![image](https://raw.githubusercontent.com/karthick-kk/karthick-kk-hugo/main/images/email-icon.gif#floatleft) [karthick.kk@hotmail.com](mailto:karthick.kk@hotmail.com)
 --|--|--
 [https://github.com/karthick-kk](https://github.com/karthick-kk)|<span>&nbsp;&nbsp;</span>  |Chennai
 -------------------     ----------------------------
