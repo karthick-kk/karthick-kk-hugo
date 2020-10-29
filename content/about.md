@@ -24,4 +24,4 @@ Before into IT, I was a teaching faculty at Dr.M.G.R Education Research Institut
 
 - Checkout the **CV**
 
-Have a question or need help on a project? **Lets talk**
+Have a question or need help on a project? **[Lets talk](mailto:kkzone@gmail.com)**
