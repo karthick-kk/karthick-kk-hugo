@@ -1,7 +1,7 @@
 +++
 title = "CV"
 date = "2020-10-28"
-aliases = ["CV","Resume","resume"]
+aliases = ["CV","resume"]
 [ author ]
   name = "Karthick"
 +++
