@@ -22,19 +22,23 @@ jobs:
           path: public 
           retention-days: 1
           # The desired behavior if no files are found using the provided path.
-#      - uses: actions/checkout@master
-#        with:
-#          repository: karthick-kk/argo-githubrunner
+      - name: Download a Build Artifact
+        uses: actions/download-artifact@v2.0.5
+        with:
+          path: ~/source
+      - uses: actions/checkout@master
+        with:
+          repository: karthick-kk/karthick-kk.github.io
 #          token: ${{ secrets.GITKEN }}
-#      - name: Update deployment image version of k8
-#        run: |
-#          sed -i 's/\(github-runner:\).*/\1'"$ltag"'/g' github-runner/deployments/runner.yaml
-#          git config --local user.email "action@github.com"
-#          git config --local user.name "GitHub Action"
-#          git commit -m "Add changes" -a
-#      - name: Push changes
-#        uses: ad-m/github-push-action@master
-#        with:
-#          github_token: ${{ secrets.GITKEN }}
-#          repository: karthick-kk/argo-githubrunner
-#          branch: ${{ github.ref }}
+      - name: Update deployment image version of k8
+        run: |
+          cp -rp ~/source/* .
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Add changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITKEN }}
+          repository: karthick-kk/karthick-kk.github.io
+          branch: ${{ github.ref }}
