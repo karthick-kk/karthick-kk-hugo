@@ -36,10 +36,11 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "Add changes" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITKEN }}
-          repository: karthick-kk/karthick-kk.github.io
+          git push https://${{ secrets.GITKEN }}@github.com/karthick-kk/karthick-kk.github.io
+#      - name: Push changes
+#        uses: ad-m/github-push-action@master
+#        with:
+#          github_token: ${{ secrets.GITKEN }}
+#          repository: karthick-kk/karthick-kk.github.io
 #          branch: ${{ github.ref }}
-          branch: master
+#          branch: master
