@@ -24,4 +24,6 @@ Before into IT, I was a teaching faculty at Dr.M.G.R Education Research Institut
 
 - Checkout the **[CV]({{< ref "/resume" >}} "CV")**
 
+- Connect with me on **[Upwork](https://www.upwork.com/freelancers/~01797a2c9c32d93331)** for contract
+
 Have a question or need help on a project? **[Lets talk](mailto:kkzone@gmail.com)**
