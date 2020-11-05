@@ -1,19 +1,16 @@
 ---
 title: "Zsh Setup"
 date: 2020-11-05T18:32:55+05:30
-draft: false
+draft: true
 toc: true
 images:
 tags:
   - zsh
 ---
-
 ---
 This guide is to provide some quick steps to setup zsh,oh-my-zsh framework with essential plugins and powerline10k theme
+
 ---
-
-# Zsh Setup
-
 ## Change default shell to zsh
 
 ```shell
@@ -62,9 +59,3 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 When the installation is complete, a wizard will guide us through the rest of configuration and tweaks for a powerup shell
 
 The wizard can anytime be re-run with `p10k configure` command
-
-### Reference youtube videos
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A6xWiqOpulI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dg1tK50UVGI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

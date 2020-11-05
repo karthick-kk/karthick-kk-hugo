@@ -1,15 +1,15 @@
 ---
 title: "Encrypt Decrypt With Gpg"
 date: 2020-10-30T00:00:09+05:30
-draft: false
+draft: true
 toc: true
 images:
 tags:
   - security
 ---
-
 ---
 This article explains encryption and decryption of files using GNU gpg
+
 ---
 
 ## Setup GNU gpg

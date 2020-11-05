@@ -9,18 +9,18 @@ tags:
   - workaround
   - fix
 ---
-
 ---
 A workaround to get rid of x11/compositor crash in KDE 5.x for Intel HD GPUs
+
 ---
 
-# OpenGL-Compositor crash fix on wakeup/unlock event
+## OpenGL-Compositor crash fix on wakeup/unlock event
 
 This is a simple workaround to recover from the kde compositor crashes that renders the screen with black artifacts with non-responding UI.
 
 The idea is to keep a script running in the background which capture the dbus event of lock/unlock screen to restart kwin window manager.
 
-## Restart script
+### Restart script
 
 > restart_kwin.sh
 
@@ -34,7 +34,7 @@ dbus-monitor --session "type='signal',interface='org.freedesktop.ScreenSaver'" |
   done
 ```
 
-## Autostart task
+### Autostart task
 
 
 
