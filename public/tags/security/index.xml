@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on Karthick-K</title>
+    <link>https://karthick.it/tags/security/</link>
+    <description>Recent content in security on Karthick-K</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 30 Oct 2020 00:00:09 +0530</lastBuildDate><atom:link href="https://karthick.it/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encrypt Decrypt With Gpg</title>
+      <link>https://karthick.it/posts/2020/10/encrypt-decrypt-with-gpg/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:09 +0530</pubDate>
+      
+      <guid>https://karthick.it/posts/2020/10/encrypt-decrypt-with-gpg/</guid>
+      <description> This article explains encryption and decryption of files using GNU gpg Setup GNU gpg Generate Keys gpg --full-generate-key  passphrase is optional  Encrypting a file gpg -e -r &amp;#34;karthickk&amp;#34; .wekan.json  This creates a file with an extension .gpg
+ Decrypting a file gpg -o .wekan.json -d .wekan.json.gpg </description>
+    </item>
+    
+  </channel>
+</rss>

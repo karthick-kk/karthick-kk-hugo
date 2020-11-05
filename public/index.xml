@@ -2,31 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Karthick-K</title>
-    <link>https://karthick-kk.github.io/</link>
+    <link>https://karthick.it/</link>
     <description>Recent content on Karthick-K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 28 Oct 2020 14:34:08 +0530</lastBuildDate><atom:link href="https://karthick-kk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Oct 2020 00:00:09 +0530</lastBuildDate><atom:link href="https://karthick.it/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hashicorp Boundary Setup and Demo</title>
-      <link>https://karthick-kk.github.io/posts/2020/10/hashicorp-boundary-setup-and-demo/</link>
-      <pubDate>Wed, 28 Oct 2020 14:34:08 +0530</pubDate>
+      <title>Encrypt Decrypt With Gpg</title>
+      <link>https://karthick.it/posts/2020/10/encrypt-decrypt-with-gpg/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:09 +0530</pubDate>
       
-      <guid>https://karthick-kk.github.io/posts/2020/10/hashicorp-boundary-setup-and-demo/</guid>
-      <description>This article explain how to setup a boundary server to authenticate/connect to an internal VM
- Boundary Binary Download URL: https://www.boundaryproject.io/downloads
-Boundary Server Boundary server has two components - controller and worker. A simple dev server can be started using boundary dev
-Server Spec VM - Any Network Interfaces:
-- 1 x NAT Network (10.x.x.x) - 1 x Host Only/Bridged Network (192.x.x.x/*)  Setting up Pre-requisite Install Postgresql Create docker-compose.</description>
+      <guid>https://karthick.it/posts/2020/10/encrypt-decrypt-with-gpg/</guid>
+      <description> This article explains encryption and decryption of files using GNU gpg Setup GNU gpg Generate Keys gpg --full-generate-key  passphrase is optional  Encrypting a file gpg -e -r &amp;#34;karthickk&amp;#34; .wekan.json  This creates a file with an extension .gpg
+ Decrypting a file gpg -o .wekan.json -d .wekan.json.gpg </description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://karthick-kk.github.io/about/</link>
+      <link>https://karthick.it/about/</link>
       <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://karthick-kk.github.io/about/</guid>
+      <guid>https://karthick.it/about/</guid>
       <description>Hi, I’m Karthick.
 I like building new stuffs with scripts and different devops tools.
 Most of my time is spent on automating complex tasks with CI/CD pipelines, custom tooling and containerization of applications.
@@ -36,20 +33,20 @@ Before CoreStack, I was a Cloud &amp;amp; Linux administrator at Excelencia Cons
     
     <item>
       <title>CV</title>
-      <link>https://karthick-kk.github.io/resume/</link>
+      <link>https://karthick.it/resume/</link>
       <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://karthick-kk.github.io/resume/</guid>
+      <guid>https://karthick.it/resume/</guid>
       <description>Karthick K DevOps Platform Automation Engineer     +91 9840585161  karthick.kk@hotmail.com     https://github.com/karthick-kk  Chennai     TL;DR - DevOps and Cloud Automation Engineer
 I’m currently working with CoreStack, as a Technical Lead - DevOps Automation Engineer, where I help developers streamline their workflows &amp;amp; build more awesome and effortless releases. I have a passion towards automating complex tasks using custom tooling and CI/CD pipelines.</description>
     </item>
     
     <item>
       <title>Work</title>
-      <link>https://karthick-kk.github.io/work/</link>
+      <link>https://karthick.it/work/</link>
       <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://karthick-kk.github.io/work/</guid>
+      <guid>https://karthick.it/work/</guid>
       <description>Updating soon &amp;hellip;</description>
     </item>
     
