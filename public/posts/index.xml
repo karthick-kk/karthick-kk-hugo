@@ -6,33 +6,41 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 30 Oct 2020 00:00:09 +0530</lastBuildDate>
+        <lastBuildDate>Thu, 05 Nov 2020 14:17:26 +0530</lastBuildDate>
         <atom:link href="https://karthick.it/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Encrypt Decrypt With Gpg</title>
-            <link>https://karthick.it/posts/2020/10/encrypt-decrypt-with-gpg/</link>
-            <pubDate>Fri, 30 Oct 2020 00:00:09 +0530</pubDate>
+            <title>Opengl Compositor Crash Fix Restart</title>
+            <link>https://karthick.it/posts/2020/11/opengl-compositor-crash-fix-restart/</link>
+            <pubDate>Thu, 05 Nov 2020 14:17:26 +0530</pubDate>
             
-            <guid>https://karthick.it/posts/2020/10/encrypt-decrypt-with-gpg/</guid>
-            <description> This article explains encryption and decryption of files using GNU gpg Setup GNU gpg Generate Keys gpg --full-generate-key  passphrase is optional  Encrypting a file gpg -e -r &amp;#34;karthickk&amp;#34; .wekan.json  This creates a file with an extension .gpg
- Decrypting a file gpg -o .wekan.json -d .wekan.json.gpg </description>
+            <guid>https://karthick.it/posts/2020/11/opengl-compositor-crash-fix-restart/</guid>
+            <description>A workaround to get rid of x11/compositor crash in KDE 5.x for Intel HD GPUs
+ OpenGL-Compositor crash fix on wakeup/unlock event This is a simple workaround to recover from the kde compositor crashes that renders the screen with black artifacts with non-responding UI.
+The idea is to keep a script running in the background which capture the dbus event of lock/unlock screen to restart kwin window manager.
+Restart script  restart_kwin.</description>
             <content type="html"><![CDATA[<hr>
-<h2 id="this-article-explains-encryption-and-decryption-of-files-using-gnu-gpg">This article explains encryption and decryption of files using GNU gpg</h2>
-<h2 id="setup-gnu-gpg">Setup GNU gpg</h2>
-<h3 id="generate-keys">Generate Keys</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gpg --full-generate-key
-</code></pre></div><ul>
-<li>passphrase is optional</li>
-</ul>
-<h3 id="encrypting-a-file">Encrypting a file</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gpg -e -r <span style="color:#e6db74">&#34;karthickk&#34;</span> .wekan.json
-</code></pre></div><blockquote>
-<p>This creates a file with an extension .gpg</p>
+<p>A workaround to get rid of x11/compositor crash in KDE 5.x for Intel HD GPUs</p>
+<hr>
+<h2 id="opengl-compositor-crash-fix-on-wakeupunlock-event">OpenGL-Compositor crash fix on wakeup/unlock event</h2>
+<p>This is a simple workaround to recover from the kde compositor crashes that renders the screen with black artifacts with non-responding UI.</p>
+<p>The idea is to keep a script running in the background which capture the dbus event of lock/unlock screen to restart kwin window manager.</p>
+<h3 id="restart-script">Restart script</h3>
+<blockquote>
+<p>restart_kwin.sh</p>
 </blockquote>
-<h3 id="decrypting-a-file">Decrypting a file</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gpg -o .wekan.json -d .wekan.json.gpg
-</code></pre></div>]]></content>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">dbus-monitor --session <span style="color:#e6db74">&#34;type=&#39;signal&#39;,interface=&#39;org.freedesktop.ScreenSaver&#39;&#34;</span> |
+  <span style="color:#66d9ef">while</span> read x; <span style="color:#66d9ef">do</span>
+    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;</span>$x<span style="color:#e6db74">&#34;</span> in
+      *<span style="color:#e6db74">&#34;boolean true&#34;</span>*<span style="color:#f92672">)</span> pkill kwin_x11;;
+      *<span style="color:#e6db74">&#34;boolean false&#34;</span>*<span style="color:#f92672">)</span> kwin_x11 --replace;;  
+    <span style="color:#66d9ef">esac</span>
+  <span style="color:#66d9ef">done</span>
+</code></pre></div><h3 id="autostart-task">Autostart task</h3>
+<p><img src="https://raw.githubusercontent.com/corestackdev/images/main/image-20201105095954085.png" alt="image-20201105095954085"></p>
+<h2 id="how-it-works">How it works</h2>
+<p>The autostart script monitors for lock/unlock event continuously in the background. On every unlock event, it triggers a kwin window manager restart using the command <code>kwin_x11 --replace</code></p>
+]]></content>
         </item>
         
     </channel>

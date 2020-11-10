@@ -7,15 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 30 Oct 2020 00:00:09 +0530</lastBuildDate><atom:link href="https://karthick.it/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Nov 2020 14:17:26 +0530</lastBuildDate><atom:link href="https://karthick.it/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Encrypt Decrypt With Gpg</title>
-      <link>https://karthick.it/posts/2020/10/encrypt-decrypt-with-gpg/</link>
-      <pubDate>Fri, 30 Oct 2020 00:00:09 +0530</pubDate>
+      <title>Opengl Compositor Crash Fix Restart</title>
+      <link>https://karthick.it/posts/2020/11/opengl-compositor-crash-fix-restart/</link>
+      <pubDate>Thu, 05 Nov 2020 14:17:26 +0530</pubDate>
       
-      <guid>https://karthick.it/posts/2020/10/encrypt-decrypt-with-gpg/</guid>
-      <description> This article explains encryption and decryption of files using GNU gpg Setup GNU gpg Generate Keys gpg --full-generate-key  passphrase is optional  Encrypting a file gpg -e -r &amp;#34;karthickk&amp;#34; .wekan.json  This creates a file with an extension .gpg
- Decrypting a file gpg -o .wekan.json -d .wekan.json.gpg </description>
+      <guid>https://karthick.it/posts/2020/11/opengl-compositor-crash-fix-restart/</guid>
+      <description>A workaround to get rid of x11/compositor crash in KDE 5.x for Intel HD GPUs
+ OpenGL-Compositor crash fix on wakeup/unlock event This is a simple workaround to recover from the kde compositor crashes that renders the screen with black artifacts with non-responding UI.
+The idea is to keep a script running in the background which capture the dbus event of lock/unlock screen to restart kwin window manager.
+Restart script  restart_kwin.</description>
     </item>
     
     <item>
