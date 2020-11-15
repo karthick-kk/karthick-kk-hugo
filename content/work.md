@@ -14,8 +14,7 @@ Lang: GO
 
 Started as a small hobby project to mimic CIS audit tool(commercial vulnerability scanner) is completely being built from the ground up using golang and bootstrap.
 
-![](https://raw.githubusercontent.com/corestackdev/images/main/gv1_mod.png) ![](https://raw.githubusercontent.com/corestackdev/images/main/gv2_mod.png)
-
+![](https://raw.githubusercontent.com/corestackdev/images/main/gv.png)
 
 Features:
 - GUI Scanner with Remote Exec enabled
