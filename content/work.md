@@ -16,6 +16,8 @@ Started as a small hobby project to mimic CIS audit tool(commercial vulnerabilit
 
 ![](https://raw.githubusercontent.com/corestackdev/images/main/gv1_mod.png#floatleft) ![](https://raw.githubusercontent.com/corestackdev/images/main/gv2_mod.png#floatright)
 
+
+
 Features:
 - GUI Scanner with Remote Exec enabled
 - Conformance with Latest CIS benchmark standards(v2)
