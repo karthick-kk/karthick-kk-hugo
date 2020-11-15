@@ -28,3 +28,5 @@ Features:
 Lang: Python
 
 Quick task to create/update CNAME entries of a hosted zone with RDS cluster endpoint.
+
+[Source Code](https://raw.githubusercontent.com/karthick-kk/aws-automation/main/dnsupdate_rds.py)
