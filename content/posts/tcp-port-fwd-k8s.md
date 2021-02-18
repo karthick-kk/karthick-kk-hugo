@@ -10,8 +10,8 @@ tags:
 
 ---
 Ingress is meant for 80 and 443 traffic redirects to services running within the cluster. Exposing a service to outside world other than the HTTP traffic is normally done by NodePort service or `kubectl port-forward` procedure. The former runs on port numbers above 30000 and the later is commonly used for testing.
-
 If we need to get our services running on specific port number for external access, then additional configurations are required on the ingress deployment,service and configmap. This article covers them each and is applicable for k8s cluster running on cloud/on-premise.
+
 ---
 
 ## Install Nginx Ingress Controller
