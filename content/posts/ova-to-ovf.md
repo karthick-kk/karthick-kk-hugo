@@ -24,7 +24,7 @@ Virtualbox does not generate Vmware Cloud/Vmware ESXi compatible OVA/OVF files
 
 - ovftool
 
-  > VMware account needed to download (free to signup)
+  ** VMware account needed to download (free to signup) **
 
 ## Conversion Process
 
@@ -40,7 +40,7 @@ Step 3:
 
 Run the ovftool to generate the .ovf,.mf and .vmdk files of the imported VM
 
-```shell
+```sh
 $ ovftool ~/vmware/OL8/OL8.vmx ~/ol8-vmware-exported.ovf                           
 Opening VMX source: /home/karthick-k/vmware/OL8/OL8.vmx
 Opening OVF target: /home/karthick-k/ol8-vmware-exported.ovf
@@ -57,6 +57,6 @@ Step 4:
 
   `<vssd:VirtualSystemType>vmx-14</vssd:VirtualSystemType>`
 
-The files are ready to be imported with Vmware Cloud or ESXi cluster.
+The files are now ready to be imported with Vmware Cloud or ESXi cluster.
 
 Reference: https://zhengwu.org/convert-virtual-machine-of-virtualbox-to-esxi/
