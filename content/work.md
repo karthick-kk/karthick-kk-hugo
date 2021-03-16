@@ -8,6 +8,14 @@ aliases = ["works"]
 
 ### Current/Recent Works
 
+#### Project ChatOps for Microsoft Teams
+
+How about performing software deployment from MS Teams? That is exactly this project is targeted for.
+- Developers can initiate deployment as chat queries
+- Transparency (Automated status updates of deployment)
+- Better Collaboration
+- Faster turn around time for product features development
+
 #### GoVuln Scanner [WIP]
 
 Lang: GO
