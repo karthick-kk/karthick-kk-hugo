@@ -23,6 +23,8 @@ Features:
 - Remote Scanning with SSH Password(Supported)/Key(TODO)
 - Remediation of discovered vulnerabilities (TODO)
 
+[Source Code](https://github.com/karthick-kk/govuln-scanner)
+
 #### Route53 Updater for RDS
 
 Lang: Python
