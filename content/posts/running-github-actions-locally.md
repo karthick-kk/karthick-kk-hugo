@@ -53,7 +53,7 @@ $ act -r --secret-file ~/dev/act/secrets -P self-hosted=karthickk/github-runner:
 
 ## Limitations
 
-The workflows runs on the latest commit code. GitHub actions does not allow us to specify a commit code based trigger in the workflow file. However, below is a workaround to run the workflow/action against a  specific commit.
+The workflows runs against the latest commit code. GitHub actions cannot be triggered based on a commit ID. However, below is a workaround to run the workflow/action against a  specific commit.
 
 ```sh
 $ cd <git cloned path>
