@@ -52,5 +52,5 @@ SOCKS Host -> localhost Port 9050
 
 Install the proxy toggle addon from https://addons.mozilla.org/en-US/firefox/addon/proxy-toggle-button to enable/disable `tor proxy`
 
-![image-20210510212256353](../../../../.config/Typora/typora-user-images/image-20210510212256353.png)
+![image-20210510212741684](https://raw.githubusercontent.com/corestackdev/images/main/image-20210510212741684.png)
 
