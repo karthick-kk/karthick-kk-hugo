@@ -8,13 +8,25 @@ aliases = ["works"]
 
 ### Current/Recent Works
 
+#### Ops-Runner
+
+Modern web application developed upfront to assist operators with their basic day to day operations.
+
+Technology Stack: ReactJS, Go, and Redis
+
+Preview:
+![image-20210615235109750](https://raw.githubusercontent.com/corestackdev/images/main/image-20210615235109750.png)
+
 #### Project ChatOps for Microsoft Teams
 
-How about performing software deployment from MS Teams? That is exactly this project is targeted for.
+Focus of this project is to perform automated deployments from Microsoft Teams as native chat queries.
+
 - Developers can initiate deployment as chat queries
 - Transparency (Automated status updates of deployment)
 - Better Collaboration
 - Faster turn around time for product features development
+
+Technology Stack: NodeJS, Jenkins, and MS Teams
 
 #### GoVuln Scanner [WIP]
 
