@@ -48,6 +48,7 @@ Experience
 Role: *Technical Lead - DevOps Automation Engineer*
 
 Joined as a an automation engineer to solve use cases and create POC for sales. Currently assisting the internal team with the deployment pipelines for product development and new releases.
+* Implement AIOps - for automating deployments from Microsoft Teams
 * Orchestrate server configurations and monitoring using `CloudFormation` (CFN), Azure Resource Manager(`ARM`) and `Terraform`
 * Migrate legacy application to micro-services
 * Develop application manifests to run services on `Kubernetes` via `Argo CD`
@@ -128,7 +129,7 @@ Technical Skills
 **Programming Languages**
 :   * `Python`
     * `Shell`/bash
-    * `Go` (Basic)
+    * `Go`
 
 
 Education
