@@ -17,9 +17,9 @@ DevOps Platform Automation Engineer
 
 **TL;DR** - DevOps and Cloud Automation Engineer
 
-I’m currently working with `CoreStack`, as a Technical Lead - **DevOps** Automation Engineer, where I help developers streamline their workflows & build more awesome and effortless releases. I have a passion towards automating complex tasks using custom tooling and CI/CD pipelines.
+I’m currently working with `Ericsson`, as a Senior **Infrastructure Automation** Engineer, where I help developers streamline their workflows & build more awesome and effortless releases. I have a passion towards automating complex tasks using custom tooling and CI/CD pipelines. 
 
-Today, I focus on containerization, **GitOps** and **DevSecOps** implementation for continuous deployment.
+Today, I focus on **Containerization**, **GitOps** and **DevSecOps** implementation for continuous deployment.
 
 
 Certifications
@@ -43,7 +43,17 @@ Certifications
 Experience
 ----------
 
-**CoreStack [2019 - Present]:**
+**Ericsson Global Services [2021 - Present]:**
+
+Role: *Senior Infrastructure Engineer*
+
+Working on `MLOPS` integrated product development, uplift dependencies and keep security fixes upstream. 
+- Lifecycle maintenance of kubernetes API upgrades
+- Extensively work on helm deployments
+- Implement backup restore of application running on k8s cluster
+- Reduce application footprint optimzing various services and components 
+
+**CoreStack [2019 - 2021]:**
 
 Role: *Technical Lead - DevOps Automation Engineer*
 
@@ -52,7 +62,7 @@ Joined as a an automation engineer to solve use cases and create POC for sales. 
 * Orchestrate server configurations and monitoring using `CloudFormation` (CFN), Azure Resource Manager(`ARM`) and `Terraform`
 * Migrate legacy application to micro-services
 * Develop application manifests to run services on `Kubernetes` via `Argo CD`
-* Develop custom tools in `Python` using `Rest APIs`
+* Develop custom tools in `Golang` and `Python` using `Rest APIs`
 * Create Deployment Pipelines using `Jenkins`, `GitHub Actions` and `Ansible`
 * Integrate automated audit and validation controls using `Chef Inspec`
 
@@ -125,6 +135,7 @@ Technical Skills
     * `Chef Inspec`
     * `Dockers`
     * `Kubernetes`
+    * `Helm`
 
 **Programming Languages**
 :   * `Python`
@@ -149,12 +160,13 @@ Education
 
 Additional Interests and Activities
 ----------------------------------------
+* Active Opensource Contributor 
 
 * Freelancer @ [Upwork](https://www.upwork.com/freelancers/~01797a2c9c32d93331):
      * $1K+ Total Earnings
      * Total Jobs - 5
      * Total Hours - 135
 
-* Android ROM Cook/Testing
+* Android ROM Build/Testing
 
 * Guitar,Youtube,PC Gaming and Editing
