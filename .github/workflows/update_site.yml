@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: Install hugo and generate static html
         run: |
-          brew install hugo
+          brew install hugo@0.111.3
           hugo -D
       - name: Publish generated content to GitHub Pages
         uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
