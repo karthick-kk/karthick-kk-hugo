@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v1
       - name: Install hugo and generate static html
         run: |
-          wget https://github.com/gohugoio/hugo/releases/download/v0.111.3/hugo_0.111.3_darwin-universal.tar.gz
-          tar -xvf hugo_0.111.3_darwin-universal.tar.gz
+          wget https://github.com/gohugoio/hugo/releases/download/v0.111.3/hugo_extended_0.111.3_darwin-universal.tar.gz
+          tar -xvf hugo_extended_0.111.3_darwin-universal.tar.gz
           sudo mv hugo /usr/local/bin/hugo
           hugo version
           hugo -D
