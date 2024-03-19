@@ -12,8 +12,9 @@ jobs:
       - uses: actions/checkout@v1
       - name: Install hugo and generate static html
         run: |
-          brew extract --version=0.111.3 hugo homebrew/cask
-          brew install hugo@0.111.3
+          curl -sLS https://get.arkade.dev | sudo sh
+          arkade get hugo@0.111.3
+          hugo version
           hugo -D
       - name: Publish generated content to GitHub Pages
         uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
