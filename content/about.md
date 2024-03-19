@@ -12,9 +12,9 @@ I like building new stuffs with scripts and different devops tools.
 
 Most of my time is spent on automating complex tasks with CI/CD pipelines, custom tooling and containerization of applications.
 
-I’m currently working with `CoreStack`, as a Technical lead - devops automation, where I help developers streamline their workflows & build more awesome and effortless releases.
+I’m currently working with `Ericsson`, as an Infrastructure Engineer, where I help developers streamline their workflows & build more awesome and effortless releases.
 
-Before CoreStack, I was a Cloud & Linux administrator at `Excelencia Consulting Pvt`. Ltd.. Before that, I worked as Solaris Administrator in various firms like `Dell`, `Mphasis (an HP company)`, `TCS` and `IBM`.
+Before Ericsson, I was a Cloud & DevOps Automation Expert at `Corestack` - a Multicloud security governance platform. Before that, I worked as Unix(Solaris & Linux) Administrator in various firms like `Dell`, `Mphasis (an HP company)`, `TCS` and `IBM`.
 
 Before into IT, I was a teaching faculty at Dr.M.G.R Education Research Institute, where I helped students to get started with their Unix basics and entry level coding.
 
