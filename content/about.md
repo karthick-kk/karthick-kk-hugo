@@ -8,15 +8,15 @@ aliases = ["about-us","about-me","contact"]
 
 **Hi, I’m Karthick**.
 
-I like building new stuffs with scripts and different devops tools.
+I find joy in crafting innovative solutions through scripting and utilizing diverse DevOps tools.
 
-Most of my time is spent on automating complex tasks with CI/CD pipelines, custom tooling and containerization of applications.
+My expertise primarily revolves around automating intricate processes using CI/CD pipelines, custom tooling, and the containerization of applications.
 
-I’m currently working with `Ericsson`, as an Infrastructure Engineer, where I help developers streamline their workflows & build more awesome and effortless releases.
+Presently, I'm employed as an Infrastructure Engineer at `Ericsson`, where I collaborate with developers to refine their workflows and facilitate the seamless delivery of exceptional releases.
 
-Before Ericsson, I was a Cloud & DevOps Automation Expert at `Corestack` - a Multicloud security governance platform. Before that, I worked as Unix(Solaris & Linux) Administrator in various firms like `Dell`, `Mphasis (an HP company)`, `TCS` and `IBM`.
+Prior to joining Ericsson, I served as a Cloud & DevOps Automation Expert at `Corestack`, a leading Multicloud security governance platform. Before that, I honed my skills as a Unix (Solaris & Linux) Administrator at renowned firms such as `Dell`, `Mphasis (an HP company)`, `TCS`, and `IBM`.
 
-Before into IT, I was a teaching faculty at Dr.M.G.R Education Research Institute, where I helped students to get started with their Unix basics and entry level coding.
+My journey into the realm of IT began with a role as a teaching faculty member at Dr. M.G.R Education Research Institute. During this time, I empowered students to grasp the fundamentals of Unix and introductory coding, laying the foundation for their future endeavors.
 
 - See some of **[my projects]({{< ref "/work" >}} "my projects")**
 
