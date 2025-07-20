@@ -17,9 +17,9 @@ DevOps Platform Automation Engineer
 
 **TL;DR** - DevOps and Cloud Automation Engineer
 
-Currently employed at `Ericsson` as a Senior **Infrastructure Automation Engineer**, I specialize in optimizing developer workflows and facilitating seamless releases. With a fervent dedication to automating intricate processes through customized tooling and robust CI/CD pipelines, I consistently strive to enhance operational efficiency and drive innovation. 
+I am currently working as a Senior **Infrastructure Automation Engineer** at `Ericsson`, where my area of expertise is streamlining developer workflows and enabling smooth releases. I am passionate about automating complex processes with specialized tooling and strong CI/CD pipelines, and I constantly work to improve operational effectiveness and drive innovation. 
 
-My focus lies in pioneering advancements in **MLOps**, **Containerization**, **GitOps**, and **DevSecOps** to enable continuous deployment and elevate project outcomes.
+I specialize in developing cutting-edge technologies in **MLOps**, **Containerization**, **GitOps**, and **DevSecOps** to facilitate continuous deployment and improve project results.
 
 Certifications
 --------------
@@ -34,7 +34,7 @@ Certifications
 :   Redhat, *Issued Mar 2019*
 
 **Sun Certified Solaris Administrator**
-:   Sun Microsystems, *Issued Jun 2008*
+:   Sun Microsystems, *Issued Jun 2008*s
 
 **Non-Technical**
 :   IELTS, ITIL
@@ -46,27 +46,26 @@ Experience
 
 Role: *Senior Infrastructure Engineer*
 
-`Responsibilities:`
+`Performed Roles:`
+- Leading the development of `MLOPS` integrated products, making sure dependencies are uplifted and security fixes are incorporated upstream.
+- Overseeing Kubernetes API upgrade lifecycle maintenance.
+- Creating and managing `Helm` charts for upgrades and new releases.
+- Enforcing design guidelines and policies as essential elements of the development process.
+- Applying backup and restoration protocols in place for Kubernetes cluster-based application services.
+- Optimizing different components and services to reduce the application footprint.
 
-- Spearheading `MLOPS` integrated product development, ensuring uplift of dependencies and incorporation of security fixes upstream.
-- Managing the lifecycle maintenance of Kubernetes API upgrades.
-- Developing and overseeing `Helm` charts for new releases and upgrades.
-- Enforcing policies and design rules as integral components of the development process.
-- Implementing backup and restoration procedures for application services operating on Kubernetes clusters.
-- Optimizing various services and components to minimize application footprint.
-
-`Achievements:`
-- Successfully reduced direct infrastructure expenditure by over 75% by transitioning from standalone Kubernetes clusters to k3s-based vclusters.
-- Facilitated dynamic provisioning of TLS certificates, resulting in a 25% reduction in lead time effort for pipelines.
-- Implemented Vault-based secret management and design guideline rules within the CICD framework, significantly enhancing security posture with an index score increase from 80.9% to over 94.7%.
+`Results:`
+- By switching from standalone Kubernetes clusters to k3s-based vclusters, it was possible to successfully reduce direct infrastructure expenditure by more than 75%.
+- Made it easier to provision TLS certificates dynamically, which reduced pipeline lead times by 25%.
+- The security posture was substantially enhanced by implementing vault-based secret management and design guideline rules within the CICD framework. 
 
 **CoreStack [2019 - 2021]:**
 
 Role: *Technical Lead - DevOps Automation Engineer*
 
-`Responsibilities:`
-- Utilized problem-solving skills to address use cases and develop proof of concepts (POCs) for sales initiatives.
-- Provided support to the internal team by assisting with deployment pipelines for product development and new releases.
+`Performed Roles:`
+- Worked on ideating use cases and develop proof of concepts (POCs) for sales initiatives.
+- Assisted development team with deployment pipelines that elevated faster release cycles.
 - Implemented AIOps solutions to automate deployments directly from Microsoft Teams.
 - Orchestrated server configurations and monitoring using `CloudFormation` (CFN), `Azure Resource Manager` (ARM), and `Terraform`.
 - Developed application manifests to facilitate the deployment of services on `Kubernetes` via `Argo CD`.
@@ -74,9 +73,9 @@ Role: *Technical Lead - DevOps Automation Engineer*
 - Designed and executed deployment pipelines utilizing `Jenkins`, `GitHub Actions`, and `Ansible`.
 - Integrated automated audit and validation controls into the development process using `Chef InSpec`.
 
-`Achievements:`
-- Successfully migrated a legacy application to a microservices architecture, resulting in a significant reduction in cloud expenditure costs from 312 USD to 65 USD per application. This achievement was attained through the containerization of the application and the distribution of workloads across low-spec cloud instances.
-- Implemented automatic shutdown and startup procedures for cloud instances, resulting in a substantial reduction in cloud expenses on compute engines from 24800 cloud credits to 6500 credits per month, representing a reduction of over 75%.
+`Results:`
+- The cost of cloud expenditures was significantly reduced from 312 USD to 65 USD per application after a legacy application was successfully moved to a microservices architecture. This was accomplished by distributing workloads among low-spec cloud instances and containerizing the application.
+- Automated cloud instance shutdown and startup processes were put in place, which led to a significant monthly decrease in compute engine cloud costs from 24800 cloud credits to 6500 credits—a decrease of more than 75%.
 
 **Excelencia Consulting Ltd [2016-2019]**
 
@@ -84,14 +83,14 @@ Role: *Lead Consultant*
 
 Client: [Syntax/CoreServices](https://syntax.com) Domain: *ERP/Hosting*
 
-`Responsibilities:`
+`Performed Roles:`
 - Focused primarily on automating Oracle Cloud Infrastructure tasks using Ansible, with a specific focus on developing scripts to remediate servers and ensure compliance with `CIS` standards.
 - Orchestrated the creation of virtual machines using Ansible for both `Oracle Private Cloud` (OPC) and `Oracle Cloud Infrastructure` (OCI).
-- Implemented strategies to optimize cloud costs by scheduling automated start/stop procedures for applications, databases, and servers.
+- Scheduled automated start/stop processes for servers, databases, and apps in order to optimize cloud expenses.
 - Automated tenant creation in `Cisco ACI` utilizing `APIC` APIs, `ASA` firewall rules, and `Palo Alto` Networks device clusters.
 
-`Achievements:`
-- Designed and developed a web-based security tool using Bash and PHP to automate the security hardening process for over 10,000 Linux servers. This initiative resulted in the complete elimination of expenses associated with server hardening, reducing costs from 110,000 USD to 0 USD per server.
+`Results:`
+- Designed and developed a web-based security tool using Bash and PHP to automate the security hardening process for over 10,000 Linux servers. This initiative resulted in the complete elimination of expenses associated with server hardening.
 
 **Dell India [2015-2016]**
 
@@ -99,12 +98,12 @@ Role: *Senior Systems Administrator*
 
 Client: [CitiBank](https://citigroup.com) Domain: *Banking*
 
-`Responsibilities:`
+`Performed Roles:`
 - Provided essential support services to a network of 15,000 servers.
 - Responsible for conducting regular maintenance activities and service tasks, including patching, upgrades, provisioning, and bug fixes, to ensure seamless business continuity.
 
-`Achievement:`
-- Implemented automated patch management for Unix servers, significantly reducing the time required for patching from 4 hours to just 20 minutes, representing a 2.5X improvement in efficiency. Additionally, achieved an enhanced patch success rate, increasing from 92% to 99%.
+`Results:`
+- Implemented automated patch management for Unix servers, significantly reducing the time required for patching from 4 hours to just 20 minutes, representing a 2.5X improvement in efficiency. 
 
 **Mphasis [2012-2015]**
 
@@ -112,7 +111,7 @@ Role: *Senior Principal Infrastructure Engineer*
 
 Client: [Pegasus](https://pegs.com) Domain: *Travel and Hospitality*
 
-`Responsibilities:`
+`Performed Roles:`
 - Provided engineering-level support for internal servers, ensuring high availability of clustered applications and databases, including Informix and Oracle.
 - Conducted standalone and VMware server builds across various hardware architectures.
 - Managed `VERITAS` Storage Foundation upgrade projects (`VCS`/`VXVM`) to maintain optimal storage performance.
@@ -121,7 +120,7 @@ Client: [Pegasus](https://pegs.com) Domain: *Travel and Hospitality*
 - Automated manual server builds and implemented monitoring solutions to improve efficiency and reliability.
 - Implemented virtualization technologies such as Solaris Zones, Solaris 11 VNET, DLMP, and LDOMs for resource optimization and flexibility.
 
-`Achievement:`
+`Results:`
 - Developed an OS Upgrade/Migrator Ecosystem to transition from end-of-life (EOL) hardware to vendor-recommended hardware and software subsystems. This initiative enabled the organization to retire legacy hardware and migrate to modern infrastructure, leading to improved performance, reliability, and cost savings.
 
 **Tata Consultancy Services [2010-2012]**
@@ -130,14 +129,14 @@ Role: *IT Consultant*
 
 Client: [The Northern Trust](https://northerntrust.com) Domain: *Banking*
 
-`Responsibilities:`
+`Performed Roles:`
 - Orchestrated server provisioning for new applications, including setups involving WebLogic, Apache, Tomcat, and `Oracle HTTP` Server, operating across various platform databases.
 - Managed server builds tailored to application requirements, including the deployment of clustered servers using Veritas and Oracle HTTP Server for application-level web services.
 - Installed and configured WebLogic to facilitate communication between middleware applications and underlying web servers.
 - Implemented and tested `disaster recovery` (DR) servers to ensure data integrity and system resilience.
 - Conducted server migration and upgrade tasks to maintain system performance and security.
 
-`Achievements:`
+`Results:`
 - Implemented automation in the server build process, drastically reducing the turnaround time for new server provisioning from 3 days to just 4 hours, inclusive of all post-validation and sign-offs.
 - Eliminated manual tasks by replacing team-dependent activities with REST API calls, streamlining processes and enhancing efficiency.
 
@@ -147,10 +146,10 @@ Role: *Operation Lead Specialist*
 
 Client: [Walt Disney](https://thewaltdisneycompany.com) Domain: *Media*
 
-`Responsibilities:`
+`Performed Roles:`
 - Ensured uninterrupted operation of mission-critical applications and services by delivering comprehensive infrastructure support to remote servers situated in multiple data centers across the USA, including locations in California, Florida, New York, and Ohio, on a 24x7 basis.
 
-`Achievements:`
+`Results:`
 - Designed and implemented a Remediation Toolkit to address issues on over 15,000 multi-platform Unix servers worldwide. Through batch processing, reduced the remediation time per server from 240 minutes to just 15 minutes, significantly enhancing efficiency and minimizing downtime.
 
 Technical Skills
@@ -197,4 +196,3 @@ Additional Interests and Activities
 
 * Android ROM and Kernel Development
 
-* Violin, Travel
