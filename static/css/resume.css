@@ -1,0 +1,26 @@
+.resume-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.resume-dl {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: 8px;
+  color: var(--body-color, #1a1a1a);
+  background: transparent;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.resume-dl:hover {
+  background: var(--primary-color, #2a7ae2);
+  color: #fff;
+  border-color: var(--primary-color, #2a7ae2);
+}
+@media print {
+  .resume-actions { display: none !important; }
+}

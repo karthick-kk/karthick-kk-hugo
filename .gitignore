@@ -1,0 +1,18 @@
+# Hugo generated output
+/public/
+/resources/_gen/
+/hugo_stats.json
+.hugo_build.lock
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Generated resume exports (produced in CI via scripts/build-resume.sh)
+/static/resume/*.pdf
+/static/resume/*.docx
+
+# Local tooling for compiling theme SCSS (output is committed in static/css/main.css)
+/node_modules/
+/package.json
+/package-lock.json

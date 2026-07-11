@@ -4,23 +4,31 @@ on:
   push:
     branches: main
     paths-ignore: '.github/**'
-  
+
 jobs:
   updatesite:
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Install hugo and generate static html
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Install Hugo (extended)
         run: |
-          wget https://github.com/gohugoio/hugo/releases/download/v0.111.3/hugo_extended_0.111.3_darwin-universal.tar.gz
-          tar -xvf hugo_extended_0.111.3_darwin-universal.tar.gz
+          HUGO_VERSION="0.164.0"
+          wget -q "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_darwin-universal.tar.gz"
+          tar -xzf "hugo_extended_${HUGO_VERSION}_darwin-universal.tar.gz"
           sudo mv hugo /usr/local/bin/hugo
           hugo version
-          hugo -D
+      - name: Install LibreOffice (for resume PDF/DOCX export)
+        run: brew install --cask libreoffice
+      - name: Generate resume PDF/DOCX
+        run: ./scripts/build-resume.sh
+      - name: Build site
+        run: hugo -D
       - name: Publish generated content to GitHub Pages
         uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
         with:
-          repo: karthick-kk/karthick-kk.github.io 
+          repo: karthick-kk/karthick-kk.github.io
           dir: public
           branch: master
           token: ${{ secrets.GITKEN }}

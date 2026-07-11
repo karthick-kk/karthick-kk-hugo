@@ -1,0 +1,40 @@
+{{ define "main" }}
+    <main class="post">
+        <div class="resume-actions" aria-label="Download resume">
+            <a class="resume-dl" href="/resume/CV_karthick-k.pdf" target="_blank" rel="noopener" aria-label="Download PDF" title="Download PDF">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </a>
+            <a class="resume-dl" href="/resume/CV_karthick-k.docx" target="_blank" rel="noopener" aria-label="Download DOCX" title="Download DOCX">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </a>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+
+            {{ if .Params.toc }}
+                <hr />
+                <aside id="toc">
+                <div class="toc-title">{{ i18n "tableOfContents" }}</div>
+                    {{ .TableOfContents }}
+                </aside>
+                <hr />
+            {{ end }}
+
+            {{ with .Params.Cover }}
+                <img src="{{ . | relURL }}" class="post-cover" />
+            {{ end }}
+
+            <div class="post-content">
+                {{ .Content }}
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            {{ partial "tags.html" . }}
+            {{ partial "categories.html" . }}
+        </div>
+    </main>
+{{ end }}
