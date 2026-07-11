@@ -18,7 +18,7 @@ TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
 echo "==> Building site to render resume HTML"
-hugo --quiet >/dev/null
+hugo >&2
 
 RESUME_HTML="public/resume/index.html"
 if [[ ! -f "$RESUME_HTML" ]]; then

@@ -1,9 +1,8 @@
 baseURL = "https://karthick.it"
 title   = "Karthick-K"
 
-[module]
-  [[module.imports]]
-    path = "github.com/rhazdon/hugo-theme-hello-friend-ng"
+theme = "hello-friend-ng"
+
 
 
 languageCode = "en-us"
