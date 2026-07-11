@@ -3,7 +3,6 @@ name: Update Site
 on:
   push:
     branches: main
-    paths-ignore: '.github/**'
 
 jobs:
   updatesite:
@@ -14,10 +13,7 @@ jobs:
           fetch-depth: 1
       - name: Install Hugo (extended)
         run: |
-          HUGO_VERSION="0.164.0"
-          wget -q "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_darwin-universal.tar.gz"
-          tar -xzf "hugo_extended_${HUGO_VERSION}_darwin-universal.tar.gz"
-          sudo mv hugo /usr/local/bin/hugo
+          brew install hugo
           hugo version
       - name: Install LibreOffice (for resume PDF/DOCX export)
         run: brew install --cask libreoffice
