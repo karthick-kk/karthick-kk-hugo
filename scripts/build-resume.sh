@@ -28,15 +28,58 @@ fi
 
 echo "==> Extracting resume body"
 python3 - "$RESUME_HTML" "$TMP/resume.html" <<'PY'
-import sys, bs4
+import sys
+from html.parser import HTMLParser
+
 src, dst = sys.argv[1], sys.argv[2]
-soup = bs4.BeautifulSoup(open(src, encoding="utf-8").read(), "html.parser")
-content = soup.select_one(".post-content")
-if content is None:
-    # fallback: grab the <article> body without the title link
-    content = soup.select_one("article")
-name = soup.select_one("h1")
-name_text = name.get_text(strip=True) if name else "CV"
+
+class Extractor(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.in_target = 0
+        self.depth = 0
+        self.parts = []
+
+    def handle_starttag(self, tag, attrs):
+        if self.in_target:
+            self.depth += 1
+            self.parts.append(self._open(tag, attrs))
+        elif (tag == "div" and
+              any(k == "class" and v == "post-content" for k, v in attrs)):
+            self.in_target = 1
+            self.depth = 0
+
+    def handle_endtag(self, tag):
+        if self.in_target:
+            if self.depth == 0:
+                self.in_target = 0
+            else:
+                self.depth -= 1
+                self.parts.append(f"</{tag}>")
+
+    def handle_startendtag(self, tag, attrs):
+        if self.in_target:
+            self.parts.append(self._open(tag, attrs, self_closing=True))
+
+    def handle_data(self, data):
+        if self.in_target:
+            self.parts.append(data)
+
+    def _open(self, tag, attrs, self_closing=False):
+        s = f"<{tag}"
+        for k, v in attrs:
+            s += f' {k}="{v}"' if v is not None else f" {k}"
+        return s + ("/>" if self_closing else ">")
+
+with open(src, encoding="utf-8") as f:
+    parser = Extractor()
+    parser.feed(f.read())
+    body = "".join(parser.parts)
+
+# Title from the first <h1> in the extracted body
+import re
+m = re.search(r"<h1[^>]*>(.*?)</h1>", body, re.S)
+name_text = re.sub(r"<[^>]+>", "", m.group(1)).strip() if m else "CV"
 
 css = """
 @page { size: A4; margin: 14mm 16mm; }
@@ -58,8 +101,9 @@ strong { font-weight: 700; }
 
 doc = (f'<html><head><meta charset="utf-8">'
        f'<title>{name_text}</title><style>{css}</style></head>'
-       f'<body>{content.decode_contents()}</body></html>')
-open(dst, "w", encoding="utf-8").write(doc)
+       f'<body>{body}</body></html>')
+with open(dst, "w", encoding="utf-8") as f:
+    f.write(doc)
 print(f"    wrote {dst}")
 PY
 
