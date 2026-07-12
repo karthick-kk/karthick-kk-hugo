@@ -10,7 +10,7 @@ These are the projects I'm actively building and maintaining. They range from Ku
 
 ### Platforms & DevOps
 
-#### kubetrust <img src="/images/projects/kubetrust.png" alt="kubetrust" style="height:2.4em;vertical-align:middle;border-radius:6px;margin-left:.5rem">
+#### kubetrust
 
 I built **kubetrust** as a Kubernetes mutating admission webhook that automatically injects CA certificates into pods running in labeled namespaces, integrating with cert-manager's trust-manager to consolidate system and custom CAs into a single trust bundle.
 
@@ -24,7 +24,7 @@ Technology Stack: Go · Helm · cert-manager trust-manager · Kubernetes 1.19+
 
 [Source](https://github.com/kubetrust/kubetrust)
 
-#### Enter Bash <img src="/images/projects/enter-bash.png" alt="Enter Bash" style="height:2.4em;vertical-align:middle;border-radius:6px;margin-left:.5rem">
+#### Enter Bash
 
 I co-built **Enter Bash**, a hands-on DevOps & Cloud learning platform where learners spin up real, disposable lab containers, solve challenges, and earn XP and streaks on a leaderboard — practical practice instead of multiple-choice quizzes.
 
@@ -38,7 +38,7 @@ Technology Stack: SvelteKit (frontend) · Cloudflare Workers / Hono + D1 (backen
 
 [Source](https://github.com/enterbash/enter-bash-content) · [Live](https://enter-bash.fosskloud.workers.dev/)
 
-#### IPA — Interview Panel Assistant <img src="/images/projects/ipa.png" alt="IPA screenshot" style="height:3.2em;vertical-align:middle;border-radius:8px;margin-left:.5rem">
+#### IPA — Interview Panel Assistant
 
 I built **IPA** (Interview Panel Assistant), a desktop app for interviewers that spins up shareable, live technical scenarios on a local Linux desktop using distrobox — so candidates get a real, reproducible environment instead of a shared screen-share.
 
@@ -54,7 +54,7 @@ Technology Stack: Go · Wails · Svelte / TypeScript · distrobox · Docker · t
 
 ### AI & Security
 
-#### NeuroCAT <img src="/images/projects/neurocat.png" alt="NeuroCAT" style="height:2.4em;vertical-align:middle;border-radius:6px;margin-left:.5rem">
+#### NeuroCAT
 
 I built **NeuroCAT**, an AI-powered security hardening agent that turns CIS benchmark PDFs into audit scripts and scans remote Linux servers for compliance — so hardening stops being a slow, manual, error-prone chore.
 
@@ -68,7 +68,7 @@ Technology Stack: Python 3.10+ · Ollama / OpenRouter · SSH · vector store
 
 [Source](https://github.com/neur0cat/neurocat)
 
-#### Kiro Gateway <img src="/images/projects/kiro-gateway.png" alt="Kiro Gateway" style="height:2.4em;vertical-align:middle;border-radius:6px;margin-left:.5rem">
+#### Kiro Gateway
 
 I built **Kiro Gateway**, a proxy that lets any OpenAI- or Anthropic-compatible tool use Kiro's (AWS) free Claude models — so you can point Claude Code, Codex, Cursor, and friends at Claude without a paid API key.
 
@@ -84,7 +84,7 @@ Technology Stack: Python · FastAPI · multi-account token management
 
 ### Apps & Emulators
 
-#### Nux Emulator <img src="/images/projects/nux-emulator.png" alt="Nux Emulator" style="height:2.4em;vertical-align:middle;border-radius:6px;margin-left:.5rem">
+#### Nux Emulator
 
 I contribute to **Nux**, a gaming-focused Android emulator for Linux with a polished GNOME-native UI — bringing near-native Android gaming to the desktop without proprietary layers.
 
@@ -98,7 +98,7 @@ Technology Stack: Rust · crosvm / KVM · gfxstream · GTK4 / libadwaita
 
 [Source](https://github.com/nux-emulator/nux-emulator)
 
-#### rDownloader <img src="/images/projects/rdownloader.png" alt="rDownloader" style="height:2.4em;vertical-align:middle;border-radius:6px;margin-left:.5rem">
+#### rDownloader
 
 I built **rDownloader**, a cross-platform download manager (with a bonus AI video summarizer) that pairs a snappy Flutter UI with a high-performance Rust core via flutter_rust_bridge.
 
@@ -112,7 +112,7 @@ Technology Stack: Flutter / Dart · Rust (flutter_rust_bridge) · Riverpod · tr
 
 *Private — not publicly available.*
 
-#### AGAM TV <img src="/images/projects/agamtv.png" alt="AGAM TV" style="height:2.4em;vertical-align:middle;border-radius:6px;margin-left:.5rem">
+#### AGAM TV
 
 I built **AGAM TV**, a cross-platform IPTV app with a Google TV-inspired interface for Android, Android TV, and Linux — tuned for Tamil and regional channels.
 
