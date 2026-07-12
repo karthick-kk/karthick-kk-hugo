@@ -27,23 +27,30 @@
 
 .sourceforge-badges {
   display: grid;
-  grid-template-columns: repeat(3, minmax(125px, 1fr));
+  grid-template-columns: repeat(3, 125px);
   gap: 1.25rem 1.5rem;
   align-items: start;
+  justify-content: start;
   margin: 1rem 0 1.5rem;
-  max-width: 520px;
 }
-.sourceforge-badges .sf-root {
-  justify-self: center;
+.sourceforge-badge {
+  display: block;
+  width: 125px;
+  line-height: 0;
+}
+.sourceforge-badge img {
+  display: block;
+  width: 125px;
+  max-width: 125px;
+  height: auto;
 }
 @media (max-width: 560px) {
   .sourceforge-badges {
-    grid-template-columns: repeat(2, minmax(125px, 1fr));
-    max-width: 340px;
+    grid-template-columns: repeat(2, 125px);
   }
 }
 @media (max-width: 340px) {
   .sourceforge-badges {
-    grid-template-columns: 1fr;
+    grid-template-columns: 125px;
   }
 }

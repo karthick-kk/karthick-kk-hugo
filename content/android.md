@@ -33,19 +33,17 @@ Device trees and kernels for the dada platform.
 
 <!-- Begin SourceForge Badges -->
 <div class="sourceforge-badges">
-    <div class="sf-root" data-id="3753126" data-badge="oss-users-love-us-white" style="width:125px">
-        <a href="https://sourceforge.net/projects/kknixx-extended-roms/" target="_blank">KkNixX-Extended-Roms</a>
-    </div>
-    <div class="sf-root" data-id="3753126" data-badge="oss-rising-star-white" data-metadata="achievement=oss-rising-star" style="width:125px">
-        <a href="https://sourceforge.net/projects/kknixx-extended-roms/" target="_blank">KkNixX-Extended-Roms</a>
-    </div>
-    <div class="sf-root" data-id="3753126" data-badge="oss-community-choice-white" data-metadata="achievement=oss-community-choice" style="width:125px">
-        <a href="https://sourceforge.net/projects/kknixx-extended-roms/" target="_blank">KkNixX-Extended-Roms</a>
-    </div>
-    <div class="sf-root" data-id="3753126" data-badge="oss-sf-favorite-white" data-metadata="achievement=oss-sf-favorite" style="width:125px">
-        <a href="https://sourceforge.net/projects/kknixx-extended-roms/" target="_blank">KkNixX-Extended-Roms</a>
-    </div>
+    <a class="sourceforge-badge" href="https://sourceforge.net/projects/kknixx-extended-roms/" target="_blank" rel="noopener">
+        <img alt="KkNixX-Extended-Roms - Users Love Us on SourceForge" src="https://b.sf-syn.com/badge_img/3753126/oss-users-love-us-white" />
+    </a>
+    <a class="sourceforge-badge" href="https://sourceforge.net/projects/kknixx-extended-roms/" target="_blank" rel="noopener">
+        <img alt="KkNixX-Extended-Roms - Rising Star on SourceForge" src="https://b.sf-syn.com/badge_img/3753126/oss-rising-star-white?achievement=oss-rising-star" />
+    </a>
+    <a class="sourceforge-badge" href="https://sourceforge.net/projects/kknixx-extended-roms/" target="_blank" rel="noopener">
+        <img alt="KkNixX-Extended-Roms - Community Choice on SourceForge" src="https://b.sf-syn.com/badge_img/3753126/oss-community-choice-white?achievement=oss-community-choice" />
+    </a>
+    <a class="sourceforge-badge" href="https://sourceforge.net/projects/kknixx-extended-roms/" target="_blank" rel="noopener">
+        <img alt="KkNixX-Extended-Roms - SourceForge Favorite" src="https://b.sf-syn.com/badge_img/3753126/oss-sf-favorite-white?achievement=oss-sf-favorite" />
+    </a>
 </div>
-<script>(function () {var sc=document.createElement('script');sc.async=true;sc.src='https://b.sf-syn.com/badge_js?sf_id=3753126';var p=document.getElementsByTagName('script')[0];p.parentNode.insertBefore(sc, p);})();
-</script>
 <!-- End SourceForge Badges -->
