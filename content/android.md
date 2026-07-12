@@ -28,3 +28,22 @@ Device trees and kernels for the dada platform.
 
 - **RED kernel** — performance-oriented kernel for vili (AOSP/MIUI), built and released via SourceForge.
 - **SilverCore** — custom kernel for the POCO F5 (marble).
+
+### SourceForge Achievements
+
+<!-- Begin SourceForge Badges -->
+<div class="sf-root" data-id="3753126" data-badge="oss-users-love-us-white" style="width:125px">
+    <a href="https://sourceforge.net/projects/kknixx-extended-roms/" target="_blank">KkNixX-Extended-Roms</a>
+</div>
+<div class="sf-root" data-id="3753126" data-badge="oss-rising-star-white" data-metadata="achievement=oss-rising-star" style="width:125px">
+    <a href="https://sourceforge.net/projects/kknixx-extended-roms/" target="_blank">KkNixX-Extended-Roms</a>
+</div>
+<div class="sf-root" data-id="3753126" data-badge="oss-community-choice-white" data-metadata="achievement=oss-community-choice" style="width:125px">
+    <a href="https://sourceforge.net/projects/kknixx-extended-roms/" target="_blank">KkNixX-Extended-Roms</a>
+</div>
+<div class="sf-root" data-id="3753126" data-badge="oss-sf-favorite-white" data-metadata="achievement=oss-sf-favorite" style="width:125px">
+    <a href="https://sourceforge.net/projects/kknixx-extended-roms/" target="_blank">KkNixX-Extended-Roms</a>
+</div>
+<script>(function () {var sc=document.createElement('script');sc.async=true;sc.src='https://b.sf-syn.com/badge_js?sf_id=3753126';var p=document.getElementsByTagName('script')[0];p.parentNode.insertBefore(sc, p);})();
+</script>
+<!-- End SourceForge Badges -->

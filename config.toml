@@ -169,3 +169,8 @@ disableHugoGeneratorInject = false
     identifier = "resume"
     name       = "CV"
     url        = "resume/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
