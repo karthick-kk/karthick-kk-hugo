@@ -55,3 +55,33 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Fluid width override: ~80% of viewport, clamped for readability */
+.posts {
+  max-width: 80vw;
+  min-width: 0;
+}
+@media (max-width: 900px) {
+  .posts {
+    max-width: 92vw;
+  }
+}
+
+.post {
+  max-width: 80vw;
+  min-width: 0;
+}
+@media (max-width: 900px) {
+  .post {
+    max-width: 92vw;
+  }
+}
+
+.footer__inner {
+  max-width: 80vw;
+}
+@media (max-width: 900px) {
+  .footer__inner {
+    max-width: 92vw;
+  }
+}
