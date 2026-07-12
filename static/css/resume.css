@@ -56,21 +56,31 @@
   }
 }
 
-/* Fluid width override: ~60% of viewport */
+/* Unified fluid width: 70vw for all containers */
 .header__inner {
-  max-width: 60vw;
+  width: 70vw;
+  max-width: 70vw;
+}
+
+.content {
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
 }
 
 .posts {
-  max-width: 60vw;
+  width: 70vw;
+  max-width: 70vw;
   min-width: 0;
 }
 
 .post {
-  max-width: 60vw;
+  width: 70vw;
+  max-width: 70vw;
   min-width: 0;
 }
 
 .footer__inner {
-  max-width: 60vw;
+  width: 70vw;
+  max-width: 70vw;
 }
