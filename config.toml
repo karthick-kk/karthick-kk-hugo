@@ -162,6 +162,10 @@ disableHugoGeneratorInject = false
     name       = "Projects"
     url        = "projects/"
   [[menu.main]]
+    identifier = "android"
+    name       = "Android"
+    url        = "android/"
+  [[menu.main]]
     identifier = "resume"
     name       = "CV"
     url        = "resume/"
