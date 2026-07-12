@@ -27,7 +27,7 @@
 
 .sourceforge-badges {
   display: grid;
-  grid-template-columns: repeat(4, 125px);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   align-items: start;
   justify-content: start;
@@ -37,6 +37,7 @@
   display: block;
   width: 125px;
   line-height: 0;
+  max-width: 100%;
 }
 .sourceforge-badge img {
   display: block;
@@ -46,11 +47,11 @@
 }
 @media (max-width: 684px) {
   .sourceforge-badges {
-    grid-template-columns: repeat(2, 125px);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 340px) {
   .sourceforge-badges {
-    grid-template-columns: 125px;
+    grid-template-columns: 1fr;
   }
 }
