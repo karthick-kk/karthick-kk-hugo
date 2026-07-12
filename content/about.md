@@ -18,9 +18,8 @@ Prior to joining Ericsson, I served as a Cloud & DevOps Automation Expert at `Co
 
 My journey into the realm of IT began with a role as a teaching faculty member at Dr. M.G.R Education Research Institute. During this time, I empowered students to grasp the fundamentals of Unix and introductory coding, laying the foundation for their future endeavors.
 
-- See some of **[my projects]({{< ref "/work" >}} "my projects")**
+- See some of **[my projects]({{< ref "/projects" >}} "my projects")**
 
-- Read the **[blog]({{< ref "/posts" >}} "blog")**
 
 - Checkout the **[CV]({{< ref "/resume" >}} "CV")**
 

@@ -32,9 +32,12 @@ enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
+disableRSS     = true
 disableSitemap = false
 disable404     = false
+
+# Disable RSS feed output (no blog/posts anymore)
+disableKinds   = ["RSS", "taxonomy", "taxonomyTerm"]
 disableHugoGeneratorInject = false
 
 
@@ -46,11 +49,6 @@ disableHugoGeneratorInject = false
 
 [blackfriday]
   hrefTargetBlank = true
-
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -65,6 +63,9 @@ disableHugoGeneratorInject = false
   images = [""]
 
   homeSubtitle = "a devops transformed unix engineer"
+
+  # Used by theme footer to hide the RSS icon
+  disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
@@ -157,13 +158,9 @@ disableHugoGeneratorInject = false
     name       = "About"
     url        = "about/"
   [[menu.main]]
-    identifier = "work"
-    name       = "Work"
-    url        = "work/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+    identifier = "projects"
+    name       = "Projects"
+    url        = "projects/"
   [[menu.main]]
     identifier = "resume"
     name       = "CV"
